@@ -1,9 +1,9 @@
 # Print lagre value in for
 n = -1
-for interval in [12, 13, 14, 20, 90, 10, 15, 20]:
-    if interval > n:
-        n = interval
-    print("Value :", n, interval)
+for intervalNew in [12, 13, 14, 20, 90, 10, 15, 20]:
+    if intervalNew > n:
+        n = intervalNew
+    print("Value :", n, intervalNew)
 print("Large Value :", n)
 print("================================================")
 # Test 2 loop
@@ -35,3 +35,21 @@ for filt in [54,12,34, 20, 90, 10, 15]:
     if filt > 30:
         print("Value large 30 : ", filt)
 print("end")
+
+#Searching Using a Boolean  Variable
+foundFile = False
+for boolean_valuestring in [54,12,34, 20, 90, 10, 15]:
+    if boolean_valuestring == 90:
+        foundFile = True
+    print("Value true", boolean_valuestring)
+print("After:", foundFile)
+
+# Find the smallest value
+smallestValue = -1
+print("Before:", smallestValue)
+for smalletV in [54,12,34, 20, 90, 10, 15]:
+    if smalletV < smallestValue:
+        smallestValue == smalletV
+    print("Value:",smallestValue, smalletV)
+print("After:", smallestValue)
+
