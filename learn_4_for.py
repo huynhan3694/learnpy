@@ -17,7 +17,7 @@ print("================================================")
 # Summing in a loop
 zork_1 = 0
 print("Before", zork_1)
-for ithink_1 in [12, 13, 14, 20, 90, 10, 15, 20]:
+for ithink_1 in [12, 13, 14, 20, 90, 10, 15, 20ll]:
     zork_1 = zork_1 + ithink_1
     print(zork_1, ithink_1)
 print("after", zork_1)
