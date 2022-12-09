@@ -21,4 +21,21 @@ print(lotto)
 a = [1,2,3]
 b = [4,5,6]
 c = a + b
-print(c)
+print("Value c using + :", c)
+
+# List can be sliced using:
+# Building a List from Scratch (Using append )
+valueList = list()
+valueList.append(12)
+valueList.append("Hello")
+print(valueList)
+
+
+# String and lists
+# using split to parse strings
+valueSplit = "Hello World Demo Value Split"
+valueSplit1 = "Hello,World,Demo,Value,Split"
+splitValue = valueSplit.split()
+splitValue1 = valueSplit1.split(',')
+print(splitValue)
+print(splitValue1)
